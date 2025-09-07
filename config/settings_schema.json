@@ -50,6 +50,16 @@
         "unit": "px",
         "label": "t:labels.page_width",
         "default": 1920
+      },
+      {
+        "type": "range",
+        "id": "page_density",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "t:options.density",
+        "default": 50
       }
     ]
   },
