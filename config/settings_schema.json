@@ -17,13 +17,13 @@
       {
         "type": "font_picker",
         "id": "type_font_headings",
-        "default": "work_sans_n4",
+        "default": "inter_n4",
         "label": "t:general.headings"
       },
       {
         "type": "font_picker",
         "id": "type_font_body",
-        "default": "work_sans_n4",
+        "default": "inter_n4",
         "label": "t:general.body"
       }
     ]
