@@ -10,7 +10,8 @@
 {
   "current": {
     "type_font_size": 12,
-    "page_density": 70,
+    "max_page_width": 1280,
+    "page_density": 100,
     "content_for_index": []
   }
 }
