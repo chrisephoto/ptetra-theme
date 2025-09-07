@@ -13,6 +13,10 @@ body {
   min-height: 100svh;
 }
 
+html {
+  font-size: var(--font-size-base);
+}
+
 html:has(dialog[scroll-lock][open], details[scroll-lock][open]) {
   overflow: hidden;
 }
