@@ -6,7 +6,7 @@
   {{ settings.type_primary_font | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
 
   :root {
-    --page-density: {{ settings.page_density | times: 0.06 }}rem;
+    --page-density: {{ settings.page_density | divided_by: 100 }};
     --font-size-base: {{ settings.type_font_size }}px;
     --font-family-body: {{ settings.type_font_body.family }}, {{ settings.type_font_body.fallback_families }};
     --font-style-body: {{ settings.type_font_body.style }};
