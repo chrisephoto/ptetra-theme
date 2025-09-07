@@ -1,8 +1,8 @@
 <section>
   <div class="grid restricted-width">
-  {% render 'card-collection' %}
-  {% render 'card-collection' %}
-  {% render 'card-collection' %}
+    {%- for block in section.blocks -%}
+    {% render 'card-collection', card_collection: block.settings.collection %}
+    {%-  endfor -%}
   </div>
 </section>
 
@@ -10,6 +10,19 @@
 {
   "name": "Collection List",
   "settings": [],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:general.collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:general.collection"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Hello World Template",
