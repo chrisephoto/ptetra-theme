@@ -96,6 +96,6 @@ body {
 
 .grid {
   display: grid;
-  gap: 2rem;
+  gap: var(--page-density);
   grid-template-columns: repeat(4, 1fr);
 }
