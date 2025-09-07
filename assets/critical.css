@@ -86,4 +86,5 @@ body {
 .restricted-width {
   max-width: var(--page-width);
   margin: 0 auto;
+  padding: 1rem;
 }
