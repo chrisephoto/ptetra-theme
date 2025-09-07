@@ -11,6 +11,24 @@
   "sections": {
     "main": {
       "type": "collection-list",
+      "blocks": {
+        "featured_collection_DLEjB3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engine"
+          }
+        },
+        "featured_collection_X4NkYD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engine"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DLEjB3",
+        "featured_collection_X4NkYD"
+      ],
       "settings": {}
     }
   },
