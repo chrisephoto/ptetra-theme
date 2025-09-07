@@ -16,10 +16,16 @@
       },
       {
         "type": "font_picker",
-        "id": "type_primary_font",
+        "id": "type_font_headings",
         "default": "work_sans_n4",
-        "label": "t:general.primary"
+        "label": "t:general.headings"
       },
+      {
+        "type": "font_picker",
+        "id": "type_font_body",
+        "default": "work_sans_n4",
+        "label": "t:general.body"
+      }
     ]
   },
   {
