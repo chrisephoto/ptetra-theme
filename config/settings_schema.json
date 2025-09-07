@@ -60,6 +60,16 @@
         "unit": "%",
         "label": "t:options.density",
         "default": 100
+      },
+      {
+        "type": "range",
+        "id": "corner_radius",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "unit": "px",
+        "label": "t:labels.corner_radius",
+        "default": 5
       }
     ]
   },
