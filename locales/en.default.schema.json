@@ -65,6 +65,7 @@
       "center": "Center",
       "right": "Right"
     },
+    "density": "Density",
     "direction": {
       "horizontal": "Horizontal",
       "vertical": "Vertical"
