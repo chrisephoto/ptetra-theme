@@ -42,30 +42,14 @@
     "name": "t:general.layout",
     "settings": [
       {
-        "type": "select",
-        "id": "max_page_width",
-        "label": "t:labels.page_width",
-        "options": [
-          {
-            "value": "90rem",
-            "label": "t:options.page_width.narrow"
-          },
-          {
-            "value": "110rem",
-            "label": "t:options.page_width.wide"
-          }
-        ],
-        "default": "90rem"
-      },
-      {
         "type": "range",
-        "id": "min_page_margin",
-        "min": 10,
-        "max": 100,
-        "step": 1,
+        "id": "max_page_width",
+        "min": 1280,
+        "max": 2560,
+        "step": 128,
         "unit": "px",
-        "label": "t:labels.page_margin",
-        "default": 20
+        "label": "t:labels.page_width",
+        "default": 1920
       }
     ]
   },
