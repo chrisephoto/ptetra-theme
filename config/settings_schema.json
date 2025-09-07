@@ -25,6 +25,16 @@
         "id": "type_font_body",
         "default": "inter_n4",
         "label": "t:general.body"
+      },
+      {
+        "type": "range",
+        "id": "type_font_size",
+        "min": 12,
+        "max": 24,
+        "step": 1,
+        "unit": "px",
+        "label": "t:options.size.size",
+        "default": 16
       }
     ]
   },
