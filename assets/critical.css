@@ -119,3 +119,8 @@ body {
 .shopify-section > .full-width {
   grid-column: 1 / -1;
 }
+
+.restricted-width {
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
