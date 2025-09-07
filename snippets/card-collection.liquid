@@ -1,8 +1,8 @@
 <div class="card">
-    <div class="upper">
+    <div class="card-image">
         {{ card_collection.featured_image | image_url: width: 400 | image_tag }}
     </div>
-    <div class="lower">
+    <div class="card-content">
         {{  card_collection.title }}
         {{  card_collection.description }}
     </div>
