@@ -9,6 +9,8 @@
  */
 {
   "current": {
+    "type_font_size": 12,
+    "page_density": 50,
     "content_for_index": []
   }
 }
