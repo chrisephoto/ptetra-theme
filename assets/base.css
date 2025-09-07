@@ -101,6 +101,14 @@ body {
   padding: calc(var(--page-density) * 1.5rem);
 }
 
+.card-content .card-title {
+  font-size: 2.5rem;
+}
+
+.card-content .card-description {
+  font-size: 1.25rem;
+}
+
 .grid {
   display: grid;
   gap: calc(var(--page-density) * 3rem);
