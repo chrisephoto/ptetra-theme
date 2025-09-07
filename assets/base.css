@@ -86,3 +86,10 @@ body {
   margin: 0 auto;
   padding: 1rem;
 }
+
+.card {
+  background: red;
+  padding: 3rem;
+  border-radius: 3px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+}
