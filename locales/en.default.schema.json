@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": "Not found",
     "article": "Article",
+    "body": "Body",
     "block": "Block",
     "blog": "Blog",
     "cart": "Cart",
@@ -17,11 +27,11 @@
     "footer": "Footer",
     "group": "Group",
     "header": "Header",
+    "headings": "Headings",
     "layout": "Layout",
     "main": "Main",
     "page": "Page",
     "password": "Password",
-    "primary": "Primary",
     "product": "Product",
     "row": "Row",
     "search": "Search",
