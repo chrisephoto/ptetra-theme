@@ -115,5 +115,5 @@ body {
 .grid {
   display: grid;
   gap: calc(var(--page-density) * 3rem);
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
