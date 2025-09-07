@@ -17,7 +17,7 @@ body {
 }
 
 html {
-  font-size: var(--font-size-base)px;
+  font-size: var(--font-size-base);
 }
 
 html:has(dialog[scroll-lock][open], details[scroll-lock][open]) {
