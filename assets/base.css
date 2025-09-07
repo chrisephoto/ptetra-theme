@@ -89,9 +89,16 @@ body {
 
 .card {
   background: red;
-  padding: 3rem;
   border-radius: 3px;
   box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+}
+
+.card-image {
+
+}
+
+.card-content {
+  padding: 3rem;
 }
 
 .grid {
