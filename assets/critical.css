@@ -1,6 +1,3 @@
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1rem;
-}
 /** Critical CSS for the theme. This file is included on every page. */
 
 /* Reset styles inspired by https://www.joshwcomeau.com/css/custom-css-reset/ */
